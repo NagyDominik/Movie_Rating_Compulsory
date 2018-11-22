@@ -5,6 +5,11 @@ dotnet: 2.1
 install:
 - dotnet restore
 
+branches:
+    only:
+     - Peter
+     - Bence
+     - Dominik
 
 script:
  - dotnet build
